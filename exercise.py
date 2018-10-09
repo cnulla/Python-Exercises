@@ -23,9 +23,14 @@ odd_list = []
 for odd in range(1,50):
     if odd % 2 != 0:
         odd_list.append(odd)
-print odd_list
+#print odd_list
 
 #Number Four
 new_list1 = [1,2,3,4]
 convert_list = int("".join(map(str, new_list1)))
-print convert_list
+#print convert_list
+
+#Number Five
+sort_numbers = [8,7,4,6,11,15,8]
+sort_numbers.sort()
+print sort_numbers
