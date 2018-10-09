@@ -45,3 +45,16 @@ if not empty_list:
     print 'empty'
 else:
     print 'is not empty'
+
+
+#Number Seven
+def convert_arrays_to_dictionary(my_array):
+    new_list2 = {}
+    for every_index in my_array:
+        new_list2[every_index[1]] = every_index[0]
+    return new_list2
+
+
+arr = [['Camille','Nulla'], ['Rayvince', 'Parages']]
+print convert_arrays_to_dictionary(arr)
+
