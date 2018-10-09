@@ -41,10 +41,10 @@ sort_numbers.sort()
 
 #Number Six
 empty_list = []
-#if not empty_list:
-   # print 'empty'
-#else:
-   # print 'is not empty'
+if not empty_list:
+    print 'empty'
+else:
+    print 'is not empty'
 
 
 #Number Seven
@@ -71,9 +71,9 @@ def return_unique(unique):
     for every in unique:
         if every not in unique_list:
             unique_list.append(every)
-            return unique_list
+    return unique_list
 dup_list = [1,2,1]
-#print return_unique(dup_list)
+print return_unique(dup_list)
 
 
 #Number Ten
@@ -90,6 +90,16 @@ def find_index(my_list,my_index):
 def val_contain(my_list, value):
         if value in my_list:
             return True
+
+
+#Number Thirteen
+def check_difference(my_list1,my_list2):
+    new_list3 = []
+    for every in my_list1:
+        if every not in my_list2:
+            new_list3.append(every)
+    return new_list3
+
 
 
 
