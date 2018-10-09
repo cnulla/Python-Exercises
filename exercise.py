@@ -15,7 +15,17 @@ my_list = [1,2,3]
 def insert_list(number):
     my_list.insert(0,number)
 
-insert_list(5)
-insert_list(7)
-print my_list
+#insert_list(5)
+#insert_list(7)
 
+#Number Three
+odd_list = []
+for odd in range(1,50):
+    if odd % 2 != 0:
+        odd_list.append(odd)
+print odd_list
+
+#Number Four
+new_list1 = [1,2,3,4]
+convert_list = int("".join(map(str, new_list1)))
+print convert_list
