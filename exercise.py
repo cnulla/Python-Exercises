@@ -41,10 +41,10 @@ sort_numbers.sort()
 
 #Number Six
 empty_list = []
-if not empty_list:
-    print 'empty'
-else:
-    print 'is not empty'
+#if not empty_list:
+   # print 'empty'
+#else:
+   # print 'is not empty'
 
 
 #Number Seven
@@ -63,4 +63,14 @@ def remove_duplicate(duplicate):
     return not_duplicate
 
 sample_list = [1,1,2,3,5,6,5]
-print remove_duplicate(sample_list)
+#print remove_duplicate(sample_list)
+
+#Number Nine
+def return_unique(unique):
+    unique_list = []
+    for every in unique:
+        if every not in unique_list:
+            unique_list.append(every)
+            return unique_list
+dup_list = [1,2,1]
+print return_unique(dup_list)
