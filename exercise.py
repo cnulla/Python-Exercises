@@ -111,7 +111,18 @@ def remove_non_integer(my_list):
             new_list.append(every)
     return new_list
 
-a = ['string', 4, '4']
-print remove_non_integer(a)
 
+#Number Fifteen
+given_list = ['a','b','c']
+given_list2 = ['x','y','z']
+
+print given_list[0] + given_list2[0]
+print given_list[1] + given_list2[1]
+print given_list[2] + given_list2[2]
+
+
+
+
+
+#Number Sixteen
 
