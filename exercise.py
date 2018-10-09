@@ -8,5 +8,14 @@ for person in list_of_persons:
         my_dictionary[key] = []
     my_dictionary[key].append(person)
 
-print my_dictionary
+# print my_dictionary
+
+#Number Two
+my_list = [1,2,3]
+def insert_list(number):
+    my_list.insert(0,number)
+
+insert_list(5)
+insert_list(7)
+print my_list
 
