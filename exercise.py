@@ -48,13 +48,14 @@ else:
 
 
 #Number Seven
-def convert_arrays_to_dictionary(my_array):
-    new_list2 = {}
-    for every_index in my_array:
-        new_list2[every_index[0]] = every_index[1]
+def convert_arrays_to_dictionary(my_array, my_array1):
+    new_zip = zip(my_array,my_array1)
+    dictwords = dict(new_zip)
+    return dictwords
 
-arr = [['Camille','Nulla'], ['Rayvince', 'Parages']]
-#print convert_arrays_to_dictionary(arr)
+arr = ['Camille','Nulla']
+arr2 = ['Rayvince', 'Parages']
+#print convert_arrays_to_dictionary(arr,arr2)
 
 
 #Number Eight
@@ -124,5 +125,5 @@ print given_list[2] + given_list2[2]
 new_string = '1234'
 new_list5 = []
 convert_list1 = str(new_list5.append(int(new_string)))
-print convert_list1
+#print convert_list1
 
