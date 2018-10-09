@@ -83,9 +83,9 @@ def find_index(my_list,my_index):
 
 
 #Number Eleven
-
-
-
+def find_object(my_dictionary, object):
+    new_dict = my_dictionary.index(object)
+    return new_dict
 
 
 #Number Twelve
