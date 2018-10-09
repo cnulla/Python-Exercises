@@ -73,4 +73,11 @@ def return_unique(unique):
             unique_list.append(every)
             return unique_list
 dup_list = [1,2,1]
-print return_unique(dup_list)
+#print return_unique(dup_list)
+
+
+#Number Ten
+def find_index(my_list,my_index):
+    return my_list.index(my_index)
+
+
