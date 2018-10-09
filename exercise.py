@@ -81,3 +81,16 @@ def find_index(my_list,my_index):
     return my_list.index(my_index)
 
 
+#Number Eleven
+
+
+
+
+#Number Twelve
+def val_contain(my_list, value):
+        if value in my_list:
+            return True
+
+
+
+
