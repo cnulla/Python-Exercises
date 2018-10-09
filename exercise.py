@@ -86,6 +86,7 @@ def find_index(my_list,my_index):
 
 
 
+
 #Number Twelve
 def val_contain(my_list, value):
         if value in my_list:
