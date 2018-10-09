@@ -7,8 +7,8 @@ for person in list_of_persons:
     if key not in my_dictionary:
         my_dictionary[key] = []
     my_dictionary[key].append(person)
-
 # print my_dictionary
+
 
 #Number Two
 my_list = [1,2,3]
@@ -18,6 +18,7 @@ def insert_list(number):
 #insert_list(5)
 #insert_list(7)
 
+
 #Number Three
 odd_list = []
 for odd in range(1,50):
@@ -25,12 +26,22 @@ for odd in range(1,50):
         odd_list.append(odd)
 #print odd_list
 
+
 #Number Four
 new_list1 = [1,2,3,4]
 convert_list = int("".join(map(str, new_list1)))
 #print convert_list
 
+
 #Number Five
 sort_numbers = [8,7,4,6,11,15,8]
 sort_numbers.sort()
-print sort_numbers
+#print sort_numbers
+
+
+#Number Six
+empty_list = []
+if not empty_list:
+    print 'empty'
+else:
+    print 'is not empty'
