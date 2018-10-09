@@ -1,18 +1,12 @@
-"""def list_of_persons(person):
-    person_add = {}
-    for every in person:
-        person_add.append(every)
-    return person_add
+#Number One
+list_of_persons = ["Camille", "Angelica", "Kyle", "Manny", "Earvin", "Mimi"]
+my_dictionary = {}
 
-i = raw_input("Enter persons: ")
-print list_of_persons(i)"""
+for person in list_of_persons:
+    key = len(person)
+    if key not in my_dictionary:
+        my_dictionary[key] = []
+    my_dictionary[key].append(person)
 
-def insert_data(num):
-    new_list = []
-    for every in num:
-        new_list.insert(num)
-    return new_list
-
-
-
+print my_dictionary
 
