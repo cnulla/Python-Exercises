@@ -1,3 +1,5 @@
+import re
+
 #Number One
 list_of_persons = ["Camille", "Angelica", "Kyle", "Manny", "Earvin", "Mimi"]
 my_dictionary = {}
@@ -73,7 +75,7 @@ def return_unique(unique):
             unique_list.append(every)
     return unique_list
 dup_list = [1,2,1]
-print return_unique(dup_list)
+#print return_unique(dup_list)
 
 
 #Number Ten
@@ -101,6 +103,15 @@ def check_difference(my_list1,my_list2):
     return new_list3
 
 
+#Number Fourteen
+def remove_non_integer(my_list):
+    new_list = []
+    for every in my_list:
+        if every.isdigit():
+            new_list.append(every)
+    return new_list
 
+a = ['string', 4, '4']
+print remove_non_integer(a)
 
 
