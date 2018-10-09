@@ -1,5 +1,3 @@
-import re
-
 #Number One
 list_of_persons = ["Camille", "Angelica", "Kyle", "Manny", "Earvin", "Mimi"]
 my_dictionary = {}
@@ -121,8 +119,9 @@ print given_list[1] + given_list2[1]
 print given_list[2] + given_list2[2]
 
 
-
-
-
 #Number Sixteen
+new_string = '1234'
+new_list5 = []
+convert_list1 = str(new_list5.append(int(new_string)))
+print convert_list1
 
