@@ -51,10 +51,16 @@ else:
 def convert_arrays_to_dictionary(my_array):
     new_list2 = {}
     for every_index in my_array:
-        new_list2[every_index[1]] = every_index[0]
-    return new_list2
-
+        new_list2[every_index[0]] = every_index[1]
 
 arr = [['Camille','Nulla'], ['Rayvince', 'Parages']]
-print convert_arrays_to_dictionary(arr)
+#print convert_arrays_to_dictionary(arr)
 
+
+#Number Eight
+def remove_duplicate(duplicate):
+    not_duplicate = list(set(duplicate))
+    return not_duplicate
+
+sample_list = [1,1,2,3,5,6,5]
+print remove_duplicate(sample_list)
